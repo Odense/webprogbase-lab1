@@ -161,3 +161,59 @@ p
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
+.point
+{
+    color: red;
+}
+
+.creator-info-container
+{
+    background-color: rgb(54, 203, 248);
+    width: 60%;
+    min-height: 330px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.web-description
+{
+    background-color: rgb(123, 224, 255);
+    width: 98%;
+    height: 405px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.web-page-content
+{
+    background-color: rgb(9, 216, 243);
+    min-height: 500px;
+    width: 995px;
+    padding: 10px;
+    height: 778px;
+    border-radius: 25px;
+}
+
+.users-table
+{
+    position: relative;
+    float: left;
+    top: 35%;
+    left: 33%;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.notes-table
+{
+    position: relative;
+    float: left;
+    top: 35%;
+    left: 40%;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
