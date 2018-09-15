@@ -5,12 +5,30 @@
   <title>Memo</title>
   <meta name="description" content="My first wep-page">
   <meta name="author" content="Ivan">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-  <h1>Welcome to the memo!</h1>
-  <pre><p>This web-page will be useful for pepole, which want to remember every buisness they have to do.
-Here you can create your own notes and always remember about your plans.
-  </p></pre>
-  <p>Here you can watch list of <a href="users.html">users</a> <img src= "images/logo.png" width="32" height="32"></p>
+  <div class="container">
+      <div class="logo-container">
+          <pre><h1><img src = "images/logo.png" width="64" height="64">
+Welcome to the memo!</h1></pre>
+      </div>
+      <div class="flex-container">
+        <div class="menu">
+          <h1>Menu</h1>
+          <ul>
+          <li><a href = "users.html"><i class="fas fa-users"></i> Users</a></li>
+          <li><a href = "notes.html"><i class="fas fa-sticky-note"></i> Notes</a></li>
+          <li><a href = "about.html"><i class="fas fa-info"></i> About</a></li>
+          </ul>
+        </div>
+  <div class="page-content">
+  <p>This web-page will be useful for pepole, </p>
+  <p>which want to remember every buisnes they have to do.</p>
+  <p>Here you can create your own notes and always remember about your plans.</p>
+  </div>
+  </div>
+  </div>
 </body>
 </html>
